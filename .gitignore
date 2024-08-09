@@ -1,0 +1,4 @@
+# Ignore compiled files
+st 
+st.o 
+x.o
