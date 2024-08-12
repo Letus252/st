@@ -5,3 +5,5 @@ Patches:
         https://st.suckless.org/patches/alpha/
 2. st-expected-anysize-0.9 Cosisitent terminal gaps.
         https://st.suckless.org/patches/anysize/
+3. st-scrollback-0.9.2 + st-scrollback-mouse-0.9.2 Adds scrolling to st ( Shift + Mouse wheel ).
+        https://st.suckless.org/patches/scrollback/
