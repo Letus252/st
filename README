@@ -1,4 +1,7 @@
 This is my st build.
 
 Patches: 
-1. 
+1. st-alpha-0.8.5 Allows to set transparency to st.
+        https://st.suckless.org/patches/alpha/
+2. st-expected-anysize-0.9 Cosisitent terminal gaps.
+        https://st.suckless.org/patches/anysize/
