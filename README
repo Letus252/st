@@ -1,9 +1,15 @@
 This is my st build.
 
-Patches: 
-1. st-alpha-0.8.5 Allows to set transparency to st.
-        https://st.suckless.org/patches/alpha/
-2. st-expected-anysize-0.9 Cosisitent terminal gaps.
-        https://st.suckless.org/patches/anysize/
-3. st-scrollback-0.9.2 + st-scrollback-mouse-0.9.2 Adds scrolling to st ( Shift + Mouse wheel ).
-        https://st.suckless.org/patches/scrollback/
+Patches included: 
+
+1. st-alpha-0.8.5 https://st.suckless.org/patches/alpha/
+        This patch allows users to change the opacity of the background. Note that you need an X composite manager (e.g. compton, xcompmgr) to make this patch effective.
+
+2. st-expected-anysize-0.9 https://st.suckless.org/patches/anysize/
+        The anysize patch will automatically balance the left/right and top/bottom borders, with the terminals contents centered and the borders dynamic.
+
+3. st-scrollback-0.9.2 + st-scrollback-mouse-0.9.2 https://st.suckless.org/patches/scrollback/
+        Scroll back through terminal output using Shift+{PageUp, PageDown}.
+
+4. st-nordtheme-0.8.5.diff https://st.suckless.org/patches/nordtheme/
+        "Inspired by the beauty of the arctic, the colors reflect the cold, yet harmonious world of ice and the colorfulness of the Aurora Borealis."
