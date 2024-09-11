@@ -103,34 +103,40 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 
+//#include "/home/f0x/Documents/Themes/default_st.h" //Default colors
+#include "/home/f0x/Documents/Themes/nord_st.h" //Custom nord theme
+//#include "/home/f0x/Documents/Themes/gruvbox_st.h" //Gruvbox theme
+//#include "/home/f0x/.cache/wal/colors-wal-st.h" //Pywall theme
+
+
 /* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
-	/* 8 normal colors */
-	"#1D2123", /* black   */
-	"#EF5350", /* red     */
-	"#4CAF50", /* green   */
-	"#F9D07D", /* yellow  */
-	"#234987", /* blue    */
-	"#FE00AC", /* magenta */
-	"#94F7FF", /* cyan    */
-	"#eceff4", /* white   */
-
-	/* 8 bright colors */
-	"#323842", /* black   */
-	"#FF7874", /* red     */
-	"#6FF874", /* green   */
-	"#FFFFB7", /* yellow  */
-	"#366BC0", /* blue    */
-	"#FF00F4", /* magenta */
-	"#D2FFFF", /* cyan    */
-	"#FFFFFF", /* white   */
-
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#E5E5E5", /* default foreground colour */
-	"#000000", /* default background colour */
-};
+//static const char *colorname[] = {
+//	/* 8 normal colors */
+//	"#1D2123", /* black   */
+//	"#EF5350", /* red     */
+//	"#4CAF50", /* green   */
+//	"#F9D07D", /* yellow  */
+//	"#234987", /* blue    */
+//	"#FE00AC", /* magenta */
+//	"#94F7FF", /* cyan    */
+//	"#eceff4", /* white   */
+//
+//	/* 8 bright colors */
+//	"#323842", /* black   */
+//	"#FF7874", /* red     */
+//	"#6FF874", /* green   */
+//	"#FFFFB7", /* yellow  */
+//	"#366BC0", /* blue    */
+//	"#FF00F4", /* magenta */
+//	"#D2FFFF", /* cyan    */
+//	"#FFFFFF", /* white   */
+//
+//	[255] = 0,
+//
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	"#E5E5E5", /* default foreground colour */
+//	"#000000", /* default background colour */
+//};
 
 
 /*
